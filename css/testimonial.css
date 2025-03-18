@@ -4,7 +4,8 @@
     background-position: center;
     max-width: 1320px !important; 
     width: 100% !important;
-    height: 600px;margin: auto;
+    height: 600px;
+    margin: auto;
     padding: 50px 60px;
 
     @media screen and (max-width: 576px){
