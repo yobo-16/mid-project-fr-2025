@@ -29,14 +29,19 @@
     /* background-color: aqua; */
     height: 100%;
 
-    @media screen and (max-width: 576px){
-        flex-direction:row;
-    }
-    
-
     img{
         max-width: 150px;
     }
+
+    @media screen and (max-width: 576px){
+        flex-direction:row;
+        img{
+            max-width: 100px;
+        }
+    }
+    
+
+
 }
 
 .testimony{
