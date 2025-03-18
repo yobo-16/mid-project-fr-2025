@@ -1,0 +1,100 @@
+.hero{
+
+    
+    @media screen and (max-width: 900px){
+        flex-direction: column;
+        margin-top: 0;
+        h1{
+            margin-top: 0;
+        }
+    }
+}
+
+div.content-hero{
+    max-width: 50%;
+
+    p{
+        max-width: 435px;
+        margin: 0;
+    }
+
+    @media screen and (max-width: 900px){
+        max-width: 100%;
+        p{
+            max-width: 100%;
+        }
+    }
+}
+
+.buttons-hero{
+    display: flex;
+    align-items: center;
+    margin: 3.5em 0;
+    gap: 36px;
+}
+
+.img-container-wrapper{
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+    @media screen and (max-width: 900px) {
+        justify-content: center;
+        width: 100%;
+        flex: 1 1 100%;
+    }
+}
+
+.img-container{
+    /* background: red; */
+    max-width: 570px;
+    width: 100%;
+    position: relative;
+    /* height: 400px; */
+    aspect-ratio: 1.2;
+}
+
+.img-container-responsive{
+    display: none;
+}
+
+
+.main-img{
+    /* max-width: 570px; */
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.float-img {
+    position: absolute;
+    z-index: 2;
+    max-width: 40%;
+    height: auto;
+    filter: drop-shadow(2px 4px 12px rgba(98, 98, 98, 0.2));
+    animation: float-up 4s ease-in-out infinite;
+
+    &.top-left {
+        top: 4%;
+        left: 0%;
+    }
+
+    &.bottom-right {
+        bottom: 4%;
+        right: 0%;
+    }
+}
+
+
+@keyframes float-up {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
