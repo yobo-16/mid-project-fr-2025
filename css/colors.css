@@ -1,0 +1,14 @@
+:root{
+    --primary: #072AC8;
+    --primary-hover: #A2D6F9;
+    --primary-tapped: #D1EDFF;
+    --accent: #43D2FF;
+    /*  */
+    --neutral-dark: #292E47;
+    --neutral-medium: #6B708D;
+    --neutral-light: #F2F4FC;
+    --neutral-light-blue: #ECF7FF;
+    /*  */
+    --secondary: #FFC600;
+
+}

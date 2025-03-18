@@ -1,0 +1,37 @@
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--neutral-dark); 
+}
+h2{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+}
+h3{
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--neutral-dark); 
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--neutral-medium);
+}
+
+p.body-medium{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--neutral-medium); 
+}
+p.headline-regular{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--neutral-medium); 
+}
