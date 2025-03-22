@@ -3,7 +3,7 @@ export class Card{
         this.name = data.name;
         this.description = data.description;
         this.image = data.image;
-        this.link = '/section/'+data.name.toLowerCase();
+        this.link = '/pages/'+data.name.toLowerCase().trim().replace(/\s+/g, '')+'.html';
     }
 
     createCard() {
