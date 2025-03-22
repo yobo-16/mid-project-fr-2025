@@ -1,0 +1,64 @@
+
+
+*{
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+}
+
+
+
+body{
+    min-height: 100dvh;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    background: var(--neutral-light);
+}
+
+/* // <weight>: Use a value from 100 to 900 */
+
+h1, h2, h3, h4, p, a, li, ul, ol, span, div{
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1, h2, h3, h4{
+    text-wrap: balance;
+}
+p{
+    text-wrap: pretty;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-direction-row{
+    flex-direction: row;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}

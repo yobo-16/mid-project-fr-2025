@@ -1,0 +1,20 @@
+@import url("globales.css"); 
+@import url("colors.css"); 
+@import url("fonts.css"); 
+@import url("buttons.css");
+@import url("clear-fix.css");
+
+@import url("cards.css"); 
+@import url("navbar.css"); 
+@import url("hero-section.css"); 
+@import url("brand-carousel.css");   
+@import url("recent-projects.css"); 
+@import url("testimonial.css"); 
+@import url("input-home.css"); 
+@import url("footer.css"); 
+@import url("404.css"); 
+
+/* Intern pages */
+
+@import url("content-intern-page.css"); 
+@import url("contact-form.css"); 
