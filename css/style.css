@@ -12,3 +12,9 @@
 @import url("testimonial.css"); 
 @import url("input-home.css"); 
 @import url("footer.css"); 
+@import url("404.css"); 
+
+/* Intern pages */
+
+@import url("content-intern-page.css"); 
+@import url("contact-form.css"); 

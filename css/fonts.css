@@ -29,7 +29,8 @@ p.body-medium{
     font-style: normal;
     color: var(--neutral-medium); 
 }
-p.headline-regular{
+p.headline-regular,
+label.headline-regular{
     font-size: 17px;
     font-weight: 400;
     font-style: normal;

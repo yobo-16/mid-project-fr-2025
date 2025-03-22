@@ -1,0 +1,66 @@
+.contact-form-container{
+    /* background-color: red; */
+    div{
+        margin-block: 28px;
+
+        @media screen and (max-width: 768px){
+            margin-block: 16px;
+        }
+    }
+}
+
+.contact-form{
+    transition: all .2s;
+}
+
+
+form.contact-form input, form.contact-form textarea{
+    min-height: 70px;
+    padding-left: 20px;
+    background-color: rgba(107, 112, 141, .1);
+    border: none;
+    width: 100%;
+}
+
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.input-two-columns{
+    display: flex;
+    gap: 16px;
+    div{
+        /* width: 50%; */
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
+}
+
+.text-area-form {
+    font-family: "Roboto", sans-serif;
+    p{
+        font-size: 17px;
+    }
+    textarea{
+        padding-top: 20px;
+    }
+    ::placeholder{
+        font-family: "Roboto", sans-serif;
+    }
+
+}
+
+form.contact-form button{
+    width: 100%;
+    padding: 32px 0 48px;
+}
+
+.message-sent{
+    display: none;
+}
